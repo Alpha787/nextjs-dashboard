@@ -38,7 +38,6 @@ export default function NavLinks() {
               },
             )}
               >
-            {console.log(LinkIcon)}
             <LinkIcon className="w-6" />
             <p className="hidden md:block">{link.name}</p>
           </Link>
